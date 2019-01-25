@@ -2,15 +2,15 @@ LIRI Bot This is a command line app that queries the spotify API, OMDB API and B
 
 spotify-this-song By running
 
-node liri.js spotify-this-song you will be presented with the song name, artist, album, and a preview link for your requested song. Song is an optional argument, but if no song is specified, LIRI will default to All Star –– Smash Mouth. This queries the Spotify node API to return this information to the user. If a song is not found, the user will be notified that it cannot be found.
+node liri.js spotify-this-song you will be presented with the song name, artist, album, and a preview link for your requested song. Song is an optional argument, but if no song is specified, LIRI will give a message with instructions on how to search a song. This queries the Spotify node API to return this information to the user. If a song is not found, the user will be notified that it cannot be found.
 
 
 concert-this By running
-node liri.js concert-this you will be presented with the upcoming concerts venues, cities, and dates for approaching concerts for a chosen artist. Band is an optional argument, but if no band is specified, LIRI will default to BROCKHAMPTION. This queries the Bands in Town Events API using Request to return this information to the user. If no upcoming concerts for a specific band are found, the user will be notified of this.
+node liri.js concert-this you will be presented with the upcoming concerts venues, cities, and dates for approaching concerts for a chosen artist. Band is an optional argument, but if no band is specified, LIRI will default to Travis Scott. This queries the Bands in Town Events API using Request to return this information to the user. If no upcoming concerts for a specific band are found, the user will be notified of this.
 
 
 movie-this By running
-node liri.js movie-this you will be presented with the movie title, year, IMDB and Rotten Tomatoes ratings (given they are returned by the API), country, language, plot, and actors for the selected movie. Movie is an optional argument, but if no movie is specified, LIRI will default to Mr. Nobody. This queries the OMDB API using Request to return this information to the user. If the movie cannot be found, the user will be presented with an error message.
+node liri.js movie-this you will be presented with the movie title, year, IMDB and Rotten Tomatoes ratings (given they are returned by the API), country, language, plot, and actors for the selected movie. Movie is an optional argument, but if no movie is specified, LIRI will default to The Witch. This queries the OMDB API using Request to return this information to the user. If the movie cannot be found, the user will be presented with an error message.
 
 do-what-it-says By running
 node liri.js do-what-it-says LIRI Bot will run spotify-this-song for I Want it That Way. It reads the file random.txt and processes the commands in it (spotify-this-song, I Want it That Way) and runs it.
