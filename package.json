@@ -1,0 +1,26 @@
+{
+  "name": "node-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvega7/node-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisvega7/node-hw/issues"
+  },
+  "homepage": "https://github.com/luisvega7/node-hw#readme",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0"
+  }
+}
